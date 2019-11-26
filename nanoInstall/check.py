@@ -4,6 +4,7 @@ import numpy as np
 from tensorflow import keras
 import subprocess
 import sys
+import wandb
 
 model = tf.keras.Sequential([keras.layers.Dense(units=1, input_shape=[1])])
 model.compile(optimizer='sgd', loss='mean_squared_error')
@@ -24,8 +25,7 @@ for _ in range(1000):
 env.close()
 
 #Setup wandb
-subprocess.call("wandb login APIKEY", shell=True)
-import wandb
+subprocess.call("wandb login a8c0cf2b1dfe6c4d79eccdd47a8342f4972d9dfe", shell=True)
 from wandb.keras import WandbCallback
 wandb.init(project="nano_init")
 

@@ -27,13 +27,13 @@ subprocess.call("sudo apt-get install python3-pip", shell=True)
 subprocess.call("pip3 install --user pip", shell=True)
 
 #Python packages
-subprocess.call("pip  install --user keras", shell=True)
-subprocess.call("pip3 install --user scipy", shell=True)
-subprocess.call("pip3 install --user numpy==1.16.1", shell=True)
+subprocess.call("sudo pip3 install -U numpy==1.16.1", shell=True)
 subprocess.call("pip3 install --user future==0.17.1", shell=True)
+subprocess.call("pip3 install --user mock==3.0.5", shell=True)
 subprocess.call("pip3 install --user h5py==2.9.0", shell=True)
 subprocess.call("pip3 install --user keras_preprocessing==1.0.5", shell=True)
 subprocess.call("pip3 install --user keras_applications==1.0.6", shell=True)
+subprocess.call("pip3 install --user enum34", shell=True)
 subprocess.call("pip3 install --user futures", shell=True)
 subprocess.call("pip3 install --user testresources", shell=True)
 subprocess.call("pip3 install --user setuptools", shell=True)
@@ -43,8 +43,10 @@ subprocess.call('pip3 install --pre --extra-index-url https://developer.download
 #Update & Remove
 subprocess.call('sudo apt-get dist-upgrade', shell=True)
 subprocess.call("sudo apt autoremove", shell=True)
+#OpenAI Dependencies
+subprocess.call("sudo pip install --user --no-dependencies pyglet==1.3.2", shell=True)
 #OpenAI Gym
-subprocess.call('pip install --user gym', shell=True)
+subprocess.call('sudo pip install --user --no-dependencies gym', shell=True)
 
 #Weights&Biases
 subprocess.call('pip install --user wandb', shell=True)
