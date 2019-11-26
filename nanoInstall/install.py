@@ -15,6 +15,7 @@ subprocess.call("sudo apt-get install python-pip", shell=True)
 #subprocess.call("echo "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCfd9Iq44zIP83AUnebCZDZVz5E/LrnZ1F+Bg6uvbjAgEt4w1aF7/SjU+sy70MTCx0YT2UVIjmNiZZhW80AOIj30CfrCwNTEyd0knrt21gmuUVZocBw/h51h8RzXhAMFS68OU6986Kl3BZ+9AxeL2CedznZ8hZY0GArwnT6YtoVF7RxbbYM9QayStUGPA8rcIBRg05xoq/lPSm0YrGqhVz3jwNds93FsBlNSiWFfGP64uqbW9Hc+uNfWI/EJVpzMX6Tr/BlZQo4dlawyhyLnfZ/EfnynpJCMTrzBTWhx6NWHSPdh5/ChJB6IhdFPE38T3QfFSrwrGwBx+59ecAgyLwhYmERSf31glFbnC7Emdg82VSV0uKhOSPF7/rAfR+CpldI+4bnYofQAIJUH4VbMzIrjlqGEXTxbQPIGCi4xTxEZ0Nzf6NWE2JkHquHfVGuhw1fC1t4woU4kzKXcr4xdGMzlL5pWNfJ5KlBmkPStKQvKM5To6GdXfhHwufGBECTiR8Ts//rtzniLITz23DFb9kZAEerUhvDAr7kQY271rb+qDtTwGMb45ZTE8wwuWViLYf/uA1GHRF0LawSnIKZdvX47iPFjIuasW1uS6BqnfI0+SLpBVLTfcK39j+MMfqqmHzavRICnX9nGVDORN3yo+/asDh3sL9QLV8LKxXhNRNIPQ== jussi@DESKTOP-76OL39A" > ~/.ssh/authorized_keys")
 #subprocess.call("echo "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCmn7QUMNafoMisO17RnGG6lrQPozG1BynemAgzNl+MDHRdHocR6O10ow0uPW8due798Gc1jfIzXS03o6JPrWNAUTgHCtHhm48SoWwc+nzc7g6XJWsMXRRvjtJJllVgaQ5lA33Z3iN8vTxb8T3jOS7WZAkvKSueZgrkuj1BOQWb/fdWaJfs8jF3DUiTUiWAY1URTbF11ig80tJ0THo6ZoSiSIqdZnr47kQw3qYuAFjjlpqxm/UO4OKdmv5nWdvit8uyR2r+a8N+cgGi4/PHG9EYHY5RNpnS7RuEoC4hnU41dAusXKxXogjJVQmGbmDK4iQUe5Feuv1zUVPruWRhK+tp+QE+ijiHJ5szweRmhn2tejhJW3/ei898BPH35G6cJ5LpXYLf21CpBkViPzArXUdhs60NnBJcVbJHXltOsWtC7KJsfuFZ2fubky6v+RZY1/kPxcQ/48z4AHlVs2Ssj4rptOuwoC27v+cgUw5mOZOkBHYZ8PAwZHFZzDckqqTkf5Bu4C9zztGTJVVoea6eInIcrghAND9RQwe1UIKcVpdViA5JYLqZjuaxGlxkC1H7y6dc+n47pOYeRUbKSngrIANLT1Gs2UN45Ge0TvD3TwlyAfpgs2X9kXNUYKS7GQcYxM1WKZovhR2afz1zmJeKYrldWXqyk70NYoHCm7+wrnbgHQ== snick@DESKTOP-SAM" > ~/.ssh/authorized_keys")
 #subprocess.call("echo "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDBmxWTFy9gk74AtcE6ozuThbgL0m36O//IBVSRguDfJTmWbyfI3aWpr6RhShgHFI6IBBymx4k1e8aEjWlGBZepMi3GY0qzTtcc7tnlAr8ugBBmchSOk6m+16KBa5lRQjhc6Pvv5vZVIl5qFPQODbAm9UamM0RG/JKSZtpHmHoiW599qybm4YDWryNhUBpLeaPa1P2UHbighs/bsX97Pr/P5VZWF/cAtBE54hX8cS5x3ZxXClCnbemguuVyI6k/508v/GaIMzfTWit5KWW4lHiLTTt+KifIsBZohKtACMibnPnI/BcXhoEWZ1oKoSoFTwEkE9SyQH7YMd7FHRYuVdfKwRt155xni9+9CGmxxUhgUXSazPmy0a53rvbEZRiR5T0QrDC4MW8aC6epWEqv9I1+CWe7XW9zwmCICz6X9M0Lg07xCMN4oYmWtVlMCkRnxLCTMCbFF/GD11IXrExw8Bws0YE1EET5R2RN1Q3f2neofHdNkIawnZ5K7vIyXvL9Gf3S9wOeg3RQg5l3SN5FIA6CpKB9MnyJQQNcIerH9Xj149xLS/su0661EAkwgi6b7fD7J8TE9EUhyL9zEEJwW2SmNPGZJmGpXdV/sR9sDdjQVzNbsyJPsbdhC17whV3pQCDd+hHpsFnYL9sYq7stKcEoVt0VV2sjoJ2Xa+AMcWLBlQ== sam@sam-laptop" > ~/.ssh/authorized_keys")
+
 import subprocess
 import sys
 
@@ -23,27 +24,27 @@ subprocess.call("sudo apt-get install python-pip", shell=True)
 #TensorFlow
 subprocess.call("sudo apt-get install libhdf5-serial-dev hdf5-tools libhdf5-dev zlib1g-dev zip libjpeg8-dev", shell=True)
 subprocess.call("sudo apt-get install python3-pip", shell=True)
-subprocess.call("sudo pip3 install -U pip", shell=True)
+subprocess.call("pip3 install --user pip", shell=True)
 
 #Python packages
-subprocess.call("sudo pip install -U keras", shell=True)
-subprocess.call("sudo pip3 install -U scipy", shell=True)
-subprocess.call("sudo pip3 install -U numpy==1.16.1", shell=True)
-subprocess.call("sudo pip3 install -U future==0.17.1", shell=True)
-subprocess.call("sudo pip3 install -U h5py==2.9.0", shell=True)
-subprocess.call("sudo pip3 install -U keras_preprocessing==1.0.5", shell=True)
-subprocess.call("sudo pip3 install -U keras_applications==1.0.6", shell=True)
-subprocess.call("sudo pip3 install -U futures", shell=True)
-subprocess.call("sudo pip3 install -U testresources", shell=True)
-subprocess.call("sudo pip3 install -U setuptools", shell=True)
-subprocess.call("sudo pip3 install -U protobuf", shell=True)
+subprocess.call("pip  install --user keras", shell=True)
+subprocess.call("pip3 install --user scipy", shell=True)
+subprocess.call("pip3 install --user numpy==1.16.1", shell=True)
+subprocess.call("pip3 install --user future==0.17.1", shell=True)
+subprocess.call("pip3 install --user h5py==2.9.0", shell=True)
+subprocess.call("pip3 install --user keras_preprocessing==1.0.5", shell=True)
+subprocess.call("pip3 install --user keras_applications==1.0.6", shell=True)
+subprocess.call("pip3 install --user futures", shell=True)
+subprocess.call("pip3 install --user testresources", shell=True)
+subprocess.call("pip3 install --user setuptools", shell=True)
+subprocess.call("pip3 install --user protobuf", shell=True)
 
-subprocess.call('sudo pip3 install --pre --extra-index-url https://developer.download.nvidia.com/compute/redist/jp/v42 tensorflow-gpu', shell=True)
+subprocess.call('pip3 install --pre --extra-index-url https://developer.download.nvidia.com/compute/redist/jp/v42 tensorflow-gpu', shell=True)
 #Update & Remove
 subprocess.call('sudo apt-get dist-upgrade', shell=True)
 subprocess.call("sudo apt autoremove", shell=True)
 #OpenAI Gym
-subprocess.call('pip install gym', shell=True)
+subprocess.call('pip install --user gym', shell=True)
 
 #Weights&Biases
-subprocess.call('pip install wandb', shell=True)
+subprocess.call('pip install --user wandb', shell=True)
