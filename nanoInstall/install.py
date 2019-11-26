@@ -44,7 +44,8 @@ subprocess.call('pip3 install --no-cache --pre --extra-index-url https://develop
 subprocess.call('sudo apt-get dist-upgrade', shell=True)
 subprocess.call("sudo apt autoremove", shell=True)
 #OpenAI Dependencies
-subprocess.call("sudo pip install -U --no-dependencies pyglet==1.3.2", shell=True)
+subprocess.call("sudo pip3 install -U --no-dependencies pyglet==1.3.2", shell=True)
+#addFuture pip3 install -U future (needed for pyglet? test this)
 #OpenAI Gym
 subprocess.call('sudo pip install -U --no-dependencies gym', shell=True)
 
