@@ -20,7 +20,7 @@ import gym
 env = gym.make('CartPole-v0')
 env.reset()
 for _ in range(1000):
-    #env.render() Doesn't work since no monitor is connected.
+    env.render() #Won't work if no monitor is connected, workarounds are available.
     env.step(env.action_space.sample()) # take a random action
 env.close()
 
