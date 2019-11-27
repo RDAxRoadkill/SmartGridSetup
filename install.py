@@ -32,7 +32,9 @@ subprocess.call('pip3 install --no-cache --pre --extra-index-url https://develop
 subprocess.call("sudo pip3 install -U --no-dependencies pyglet==1.3.2", shell=True)
 
 #OpenAI Gym
-subprocess.call('sudo pip install -U --no-dependencies gym', shell=True)
+subprocess.call('sudo pip3 install -U --no-dependencies gym', shell=True)
+#Might need to use pip here if errors arise
 
 #Weights&Biases
-subprocess.call('pip install -U wandb', shell=True)
+subprocess.call('sudo -H pip3 install -U wandb', shell=True)
+#Might need to use pip here if errors arise
