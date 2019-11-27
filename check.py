@@ -25,7 +25,7 @@ for _ in range(1000):
 env.close()
 
 #Setup wandb
-subprocess.call("wandb login a8c0cf2b1dfe6c4d79eccdd47a8342f4972d9dfe", shell=True)
+subprocess.call("wandb login YOURAPIKEY", shell=True)
 from wandb.keras import WandbCallback
 wandb.init(project="nano_init")
 
